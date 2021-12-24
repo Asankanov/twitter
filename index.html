@@ -16,80 +16,57 @@
     <title>Document</title>
 </head>
 
-<style>
-    .btn-delete, .btn-edit {
-  background: transparent;
-  border: none;
-}
-
-.btn-delete img, .btn-edit img {
-  width: 30px;
-}
-</style>
 
 <body>
-
-    <div class="container">
-        <div class="add-block">
-            <form class="add-form">
-                <input type="text" class="form-control inp-name" placeholder="Enter watch name ...">
-                <input type="text" class="form-control inp-brand" placeholder="Enter watch brand ...">
-                <input type="text" class="form-control inp-descr" placeholder="Enter description ...">
-                <input type="number" class="form-control inp-price" placeholder="Enter price ...">
-                <input type="text" class="form-control inp-image" placeholder="Enter image URL ...">
-                <button class="btn btn-primary">Add</button>
-            </form>
-        </div>
-    </div>
-
-    <!-- ------- -->
-    <div class="search-block">
-      <input placeholder="Live search ..." type="text" class="form-control search-inp">
-    </div>
-    <!-- ------- -->
-
-    <div class="products">
-        <div class="container">
-            <div class="products-list row"></div>
-        </div>
-    </div>
-
-    <!-- ------ -->
-    <nav aria-label="Page navigation example" class="d-flex justify-content-center">
-      <ul class="pagination">
-       
-      </ul>
-    </nav>
-    <!-- ------ -->
-
-
-  <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        </div>
-        <div class="modal-body">
-          <form class="edit-form">
-              <input type="text" class="form-control edit-inp-name">
-              <input type="text" class="form-control edit-inp-brand">
-              <input type="text" class="form-control edit-inp-descr">
-              <input type="number" class="form-control edit-inp-price">
-              <input type="text" class="form-control edit-inp-image">
-              <button class="btn btn-primary" type="submit">Save changes</button>
+  <!-- start -->
+  <!-- navbar start -->
+  <div class="block1">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navren">
+      <div class="container-fluid navusi">
+        <a class="navbar-brand" href="#">Twitter</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled">Disabled</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
-        
       </div>
-    </div>
+    </nav>
   </div>
+  <!-- navbar  end  -->
+  <!-- post start -->
+  <div class="post-block1"></div>
+  <!-- post  end  -->
+  <!-- search-itd start -->
+  <div class="search-block1"></div>
+  <!-- search-itd  end  -->
+  <!--  end  -->
 
-  <h1>Hello</h1>
-  <h2>Twitter</h2>
-
-<h1>uhfo3ehio</h1>
     <!-- axios -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <!-- ----- -->

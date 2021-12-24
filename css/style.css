@@ -1,1 +1,16 @@
-sdklfmselfself
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.block1 {
+  width: 8vw;
+  height: 80vh;
+}
+
+.navusi {
+  /* flex-wrap: wrap; */
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
